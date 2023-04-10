@@ -1,25 +1,25 @@
-WiFi Password Stealer
-This script is designed to steal the passwords of all the WiFi networks that have been connected to a Windows computer and upload them to a designated URL.
-
-Prerequisites
-This script is built using Python and requires the following libraries to be installed:
-
-subprocess
-os
-sys
-requests
-Installation
-No installation is required. Simply download the script and run it using Python.
-
-Usage
-Open the command prompt in the directory where the script is located.
-Type python wifi_stealer.py to execute the script.
-The script will generate a file named passwords.txt containing all the stolen passwords as well as the IP address information.
-The passwords.txt file will be uploaded to the URL specified in the url variable.
-Note: The url variable should be set to the URL where you want to upload the passwords.txt file.
-
-How it works
-This script uses the netsh command to extract the WiFi profiles on the Windows computer. It then reads the XML files containing the profiles to extract the SSID and password information. It also extracts the IP address information using the ipconfig command. Finally, it saves all this information to a text file named passwords.txt and uploads it to the specified URL using the requests library.
-
-Making an executable file
-To create an executable file, use the pyinstaller library. Open the command prompt in the directory where the script is located and type pyinstaller --onefile wifi_stealer.py. This will create an executable file in the dist directory.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>README - WifiDakkat2.0.py</title>
+</head>
+<body>
+	<h1>WifiDakkat2.0.py README</h1>
+	<p>This script is a Python program designed to extract Wi-Fi profiles and IP address information from a Windows computer and send it to a specified URL using the Requests library. The program also writes the extracted information to a local file named "passwords.txt".</p>
+	<h2>Prerequisites</h2>
+	<ul>
+		<li>Python 3 installed on the computer</li>
+		<li>The Requests library installed (can be installed using pip)</li>
+	</ul>
+	<h2>Usage</h2>
+	<p>1. Open the command prompt or terminal</p>
+	<p>2. Navigate to the directory containing the script using the "cd" command</p>
+	<p>3. Type "python WifiDakkat2.0.py" to run the script</p>
+	<p>4. The script will create a file named "passwords.txt" in the same directory and write the extracted information to it</p>
+	<p>5. The script will also send the file to a specified URL using the Requests library</p>
+	<h2>Creating an executable file</h2>
+	<p>To create an executable file, navigate to the directory containing the script using the command prompt or terminal and type "pyinstaller --onefile WifiDakkat2.0.py". This will create an executable file in the "dist" directory.</p>
+	<h2>Credits</h2>
+	<p>This script was created by [insert your name or username here] and is released under the MIT License.</p>
+</body>
+</html>
