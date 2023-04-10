@@ -49,5 +49,4 @@
 
 <h2>Authors</h2>
 <ul>
-	<li>Author Name</li>
-	<li>Author Name
+	<li>Naful Ahmed</li>
