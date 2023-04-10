@@ -45,7 +45,7 @@
 <p>This script is for educational purposes only. Use at your own risk.</p>
 
 <h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="[https://github.com/username/WifiDakkat2.0/blob/main/LICENSE](https://github.com/nafiul93/WifiDakkat2.0/blob/main/license.txt)">LICENSE</a> file for details.</p>
+<p>This project is licensed under the MIT License - see the <a href="https://github.com/nafiul93/WifiDakkat2.0/blob/main/license.txt">LICENSE</a> file for details.</p>
 
 <h2>Authors</h2>
 <ul>
