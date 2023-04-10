@@ -5,7 +5,11 @@
 	<h2>Prerequisites</h2>
 	<ul>
 		<li>Python 3 installed on the computer</li>
-		<li>The Requests library installed (can be installed using pip)</li>
+		<li> This script is built using Python and requires the following libraries to be installed:
+			-subprocess
+			-os
+			-sys
+			-requests</li>
 	</ul>
 	<h2>Usage</h2>
 	<p>1. Open the command prompt or terminal</p>
