@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>README - WifiDakkat2.0.py</title>
 </head>
 <body>
 	<h1>WifiDakkat2.0.py README</h1>
@@ -20,6 +16,6 @@
 	<h2>Creating an executable file</h2>
 	<p>To create an executable file, navigate to the directory containing the script using the command prompt or terminal and type "pyinstaller --onefile WifiDakkat2.0.py". This will create an executable file in the "dist" directory.</p>
 	<h2>Credits</h2>
-	<p>This script was created by [insert your name or username here] and is released under the MIT License.</p>
+	<p>This script was created by Nafiul Ahmed.</p>
 </body>
 </html>
